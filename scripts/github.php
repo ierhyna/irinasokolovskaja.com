@@ -1,5 +1,5 @@
 <?php
-if ( $_POST['payload'] ) {
+if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
   // shell_exec( 'cd / && git reset --hard HEAD && git pull' );
   shell_exec( 'cd .. && git pull' );
 }
