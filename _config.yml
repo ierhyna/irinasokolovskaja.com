@@ -67,4 +67,4 @@ theme: white
 deploy:
   type: git
   repo: git@github.com:ierhyna/irinasokolovskaja.com.git
-  branch: public
+  branch: gh-pages
