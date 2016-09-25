@@ -66,5 +66,5 @@ theme: white
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:ierhyna/ierhyna.github.io.git
+  repo: git@github.com:ierhyna/irinasokolovskaja.com.git
   branch: gh-pages
