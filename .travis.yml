@@ -13,7 +13,7 @@ before_script:
 install:
 - hexo generate
 script:
-- if [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then hexo deploy --silent; fi
+- if [ "$TRAVIS_EVENT_TYPE" = "push" ]; then hexo deploy --silent; fi
 env:
   global:
     secure: ELtanw0ZgfDmzUflTcLPHewrH82TNLnpQtBN/AlVlWusAX2zuj3CguwIgYiWorvW/5bEb06YZjF1ybZ4K8D6V9xibEq81r5frCbq7syZwo4GnE11cEbsvczjCX1F+cyh5Bzb4BkcGDwslgkCGO0hm+YnorjnPMaaFOV2d3Z2zyVTg6gRASMvtQWTN8xRWJo+HAT9T7xglZUMM6bWQ3K8MKtN7zdJeK5xij00gP/nAdeRKSypCQ8pUVI/eVDqX+EoWNA1ywyNkQsQwb2NBdNi/pejTNB4G7QIeNmgYnzBxpWiiQU+GK5hFrqr51vCCu1lUKXHADKoe17KjmD19JnJhtSdvL2D7NWFA/UClObKFKLNAaUKr0F7XZtRTnzubQyqx25cUuv976zsUG4ANfDrXYHnt0n3dCej/MLQcYPQeD+KDew81SISbNDsDUJ1qMzDtXLkf4wFVU/a2+Abr4aav2wwWxQd4HnFzDCbUY8d0FDOReseEBSsRaJmAaTLtd04uRbnzJdURHipKHv1aNQCmBxi9YBgelh+4imlSmriuBFDM+GJ8KHKLRlnx+Gvjq5HCQM79/gEKIjKKU7KfLtgRU9LEtHoXVH93bqKvD9ds81BjACpHnIZ6u6+YUBAPsNptfqHBnYaSlUgCpNp374MRN3+ISSn3azz3e8iYTSqxYY=
