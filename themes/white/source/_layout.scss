@@ -1,0 +1,22 @@
+.container {
+  margin: 2em auto;
+  max-width: 60em;
+}
+
+.home {
+  text-align: center;
+}
+
+.social {
+  margin: 2em 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
