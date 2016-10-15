@@ -7,4 +7,4 @@ public/
 .deploy*/
 *~
 *.map
-
+*.lock
