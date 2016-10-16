@@ -55,16 +55,19 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed currentColor;
   transition: 200ms;
-  color: $colorPrimary;
+
+  &:link {
+    color: $colorPrimary;
+  }
 
   &:visited {
     color: darken($colorPrimary, 20%);
   }
 
-  &:hover,
   &:focus,
+  &:hover,
   &:active {
     color: $colorAccent;
-    border-bottom-style: groove;
+    border-bottom-style: solid;
   }
 }

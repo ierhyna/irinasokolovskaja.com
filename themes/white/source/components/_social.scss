@@ -1,0 +1,31 @@
+/**
+ * Social links
+ */
+
+.social {
+  margin: 2em 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
+
+.social__link {
+  &:link,
+  &:visited {
+    color: $colorPrimary;
+  }
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: $colorAccent;
+    border-bottom-style: solid;
+  }
+}
