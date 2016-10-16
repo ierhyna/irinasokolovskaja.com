@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
-@import '_variables';
-@import '_layout';
-@import '_typography';
+@import 'utils/_variables';
+@import 'base/_typography';
+@import 'layout/container';
+@import 'components/_home';
+@import 'components/_social';
