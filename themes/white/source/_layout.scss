@@ -4,6 +4,7 @@
 }
 
 .home {
+  margin-top: calc(50vh - 7em);
   text-align: center;
 }
 
@@ -18,5 +19,19 @@
     &:not(:last-child) {
       margin-right: 1em;
     }
+  }
+}
+
+.social__link {
+  &:link,
+  &:visited {
+    color: $colorPrimary;
+  }
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: $colorAccent;
+    border-bottom-style: solid;
   }
 }
