@@ -1,0 +1,113 @@
+html {
+  font-size: 1em;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 1.25em;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #666;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.827em;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3.998em;
+  }
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+small {
+  font-size: 0.707em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  transition: 200ms;
+}
+
+a:link {
+  color: #dc6005;
+}
+
+a:visited {
+  color: #783403;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #3085f4;
+  border-bottom-style: solid;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 60em;
+}
+
+.home {
+  margin-top: calc(50vh - 7em);
+  text-align: center;
+}
+
+.social {
+  margin: 2em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.social > li:not(:last-child) {
+  margin-right: 1em;
+}
+
+.social__link:link,
+.social__link:visited {
+  color: #dc6005;
+}
+
+.social__link:focus,
+.social__link:hover,
+.social__link:active {
+  color: #3085f4;
+  border-bottom-style: solid;
+}
